@@ -1,44 +1,33 @@
 import java.util.*;
+
 public class main {
-    public static void main(String args[]){
-       /*  Scanner sc= new Scanner (System.in);
-        int age= sc.nextInt();
+    public static void main(String args[]) {
 
-        if(age>18){
-            System.out.println("adult");
-        }else{
-            System.out.println("kid");
-        }*/
+       // for (int i = 0; i <= 10; i++) {
+         //   System.out.println("hello world");
+       // }
+       //for(int i=0;i<2;i++){
+       // System.out.println(i);
+       //}
+       /*int i=0;
+       while(i<100){
+        System.out.println(i);
+        i++;
+       }*/
+      /*int i=1;
+      do{
+        System.out.println(i);
+        i++;
+      }
+      while(i<100);*/
+      Scanner sc = new Scanner (System.in);
+      int n= sc.nextInt();
 
-            Scanner sc= new Scanner (System.in);
-            int button=sc.nextInt();
-
-            /*if(button==1){
-                System.out.println("hello girl");}
-            else if (button==2){
-                System.out.println("namaste");}
-            else if (button==3){
-                System.out.println("hmm no hi");}
-            else{
-                System.out.println("goodbye");}*/
-
-                switch(button){
-                    case 1:
-                        System.out.println("helo");
-                        break;
-                    case 2:
-                        System.out.println("hmm hi");
-                        break;
-                    case 3: 
-                    System.out.println("bye bye");
-                    break;
-
-                    default:
-                        System.out.println("go to hell");
-                }
-
-
+      int mul=0;
+      for( int i=1;i<=20;i++){
+        System.out.println(i*n);
+      }
+      
 
     }
-    
 }
