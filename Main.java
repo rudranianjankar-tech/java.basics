@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 public class Main  {
      public static void main(String args[]){
         System.out.print("Hello world\nJava\n"); 
@@ -27,4 +27,4 @@ public class Main  {
 
 
     }
-}
+}*/
