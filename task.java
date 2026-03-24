@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class task{
     public static void names (String name){
         System.out.println(name);

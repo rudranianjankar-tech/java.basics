@@ -1,3 +1,5 @@
+package com.damn.task.app;
+
 import java.util.*;
 public class patterns {
     public static void main(String[] args) {
